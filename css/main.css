@@ -1,0 +1,186 @@
+.bg-header {
+    background-color: #fff;
+}
+
+.wrp-main {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.wrp-logo, .wrp-menu, .wrp-menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.wrp-menu-list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrp-menu-list li {
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+.wrp-menu-list li:first-child {
+    padding-left: 0;
+}
+
+.wrp-menu-list li:last-child {
+    padding-right: 0;
+}
+
+.wrp-slider {
+    height: 53vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.wrp-slider-title, .wrp-slider-title h1 {
+    width: 100%;
+}
+
+.wrp-slider-title h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 85px;
+    color: rgb(255,255,255);
+    font-family: "Libre Baskerville";
+    text-transform: uppercase;
+}
+
+.btn-main-slider {
+    width: 179px;
+    height: 59px;
+    border-radius: 100px;
+    border: none;
+    background: #f45f44;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.bg-slider {
+    background-size: cover;
+}
+
+.wrp-plus {
+    height: 37vh;
+}
+
+.sec_plus {
+    padding-top: 4vh;
+}
+
+.par-color-1 {
+    color: #42c595
+}
+
+.par-color-2 {
+    color: #ab78ec;
+}
+
+.par-color-3 {
+    color: #f8b85f
+}
+
+.sec_plus p {
+    padding-top: 15px;
+}
+
+.wrp-about {
+    position: relative;
+}
+
+.wrp-about-cont {
+    width: 652px;
+    padding: 94px 82px;
+    position: absolute;
+    right: 0;
+    background: #fff url("../images/01.png") no-repeat;
+    margin-top: 79.5px;
+}
+
+.wrp-about-image {
+    position: absolute;
+    left: 0;
+}
+
+.bg-about {
+    height: 700px;
+}
+
+.lines_bg {
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    left: 0;
+    right: 0;
+}
+
+.def-line {
+    width: 25%;
+    height: 5px;
+    display: block;
+}
+
+.lines_bg {
+    display: flex;
+}
+
+.def-line_color1 { background: #fc5f45; }
+.def-line_color2 { background: #38c695; }
+.def-line_color3 { background: #b27cf5; }
+.def-line_color4 { background: #feb960; }
+
+.wrp-about-cont h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bg-focus {
+    background: #f7f7f7 url("../images/02.png") top center no-repeat;
+    padding-bottom: 65px;
+}
+
+.wrp-focus-title {
+    padding-top: 135px;
+}
+
+.wrp-focus-title h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrp-fucus-text p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.bl-focus {
+    background-color: #fff;
+    height: 330px;
+    margin-bottom: 15px;
+}
+
+.wrp-focus-image {
+    padding-top: 62px;
+}
+
+.bl-focus p {
+    padding: 10px 17px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.bg-focus h4 {
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
